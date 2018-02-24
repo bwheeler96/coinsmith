@@ -1,5 +1,10 @@
 @import '../node_modules/bulma/css/bulma.css';
 
+html {
+  background: url('/background.jpg');
+  background-size: cover;
+}
+
 .App {
   /* text-align: center; */
 }

@@ -56,10 +56,15 @@ class App extends Component {
 
   render() {
 
+    const logo = <div style={{textAlign: 'center'}}>
+      <img src='/logo.png' style={{maxWidth: '400px', marginTop: '50px'}} />
+    </div>
+
     if (!web3 || (web3 && web3.eth.accounts.length == 0)) {
       return <div className="App">
         <div className='columns'>
           <div className='column is-half is-offset-one-quarter'>
+            {logo}
             {!web3 && <div className='box' style={{marginTop: '50px'}}>
               <h3 className='is-size-3'>No Web3</h3>
               <p>
@@ -197,6 +202,7 @@ class App extends Component {
     </form>
 
     const app = <div className='column is-half is-offset-one-quarter'>
+      {logo}
       <div className='box' style={{marginTop: '50px'}}>
         {tokenFormEl}
       </div>
