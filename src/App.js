@@ -79,7 +79,7 @@ class App extends Component {
               </p>
               <div style={{textAlign: 'center'}}>
                 <a href='https://metamask.io'>
-                  <img src='/metamask.png' style={{maxWidth: '400px'}} />
+                  <img src='metamask.png' style={{maxWidth: '400px'}} />
                 </a>
               </div>
             </div>}
