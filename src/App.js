@@ -57,7 +57,7 @@ class App extends Component {
   render() {
 
     const logo = <div style={{textAlign: 'center'}}>
-      <img src='/logo.png' style={{maxWidth: '400px', marginTop: '50px'}} />
+      <img src='logo.png' style={{maxWidth: '400px', marginTop: '50px'}} />
     </div>
 
     if (!web3 || (web3 && web3.eth.accounts.length == 0)) {
