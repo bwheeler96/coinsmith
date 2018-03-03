@@ -68,7 +68,7 @@ class App extends Component {
             {!web3 && <div className='box' style={{marginTop: '50px'}}>
               <h3 className='is-size-3'>No Web3</h3>
               <p>
-                Coinify needs an in-browser Ethereum wallet
+                Coinsmith needs an in-browser Ethereum wallet
                 to interact with the Ethereum blockchain.
                 <br />
                 <br />
